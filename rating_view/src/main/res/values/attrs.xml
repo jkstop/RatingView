@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RatingView">
+        <attr name="rating_view_star_filled" format="reference"/>
+        <attr name="rating_view_star_empty" format="reference"/>
+        <attr name="rating_view_stars_count" format="integer"/>
+        <attr name="rating_view_rate" format="integer"/>
+        <attr name="rating_view_max_star_size" format="dimension"/>
+        <attr name="rating_view_stars_middle_divider" format="dimension"/>
+        <attr name="rating_view_tappable" format="boolean"/>
+    </declare-styleable>
+</resources>
