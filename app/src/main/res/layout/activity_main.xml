@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <com.github.jkstop.rating_view.RatingView
+            android:id="@+id/vRating"
+            android:layout_gravity="center"
+            app:rating_view_items_count="5"
+            app:rating_view_items_middle_divider="16dp"
+            app:rating_view_max_item_size="56dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</FrameLayout>
